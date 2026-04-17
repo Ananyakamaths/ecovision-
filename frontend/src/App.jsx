@@ -132,7 +132,7 @@ function Home() {
       // Send to backend API as required by user architecture (though inference is frontend)
       const apiBase = import.meta.env.VITE_API_URL ?? "";
       try {
-        await axios.post(`${apiBase}/save`, {
+        await axios.post(`${apiBase}/api/save`, {
           imageName,
           category,
           score,
