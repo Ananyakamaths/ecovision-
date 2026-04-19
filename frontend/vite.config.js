@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
@@ -22,11 +21,3 @@ export default defineConfig({
     chunkSizeWarningLimit: 1600,
   },
 })
-=======
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-
-export default defineConfig({
-  plugins: [react()],
-});
->>>>>>> 29d9d301065f9998dcd4bd997d110d0fd578b535
