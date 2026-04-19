@@ -42,7 +42,7 @@ function Home() {
     let isMounted = true;
     async function loadModel() {
       try {
-        const loadedModel = await tf.loadLayersModel('/model/model.json');
+        const loadedModel = await tf.loadLayersModel("/model/model.json")
         if (isMounted) {
           setModel(loadedModel);
           console.log("✅ Model Loaded Successfully");
